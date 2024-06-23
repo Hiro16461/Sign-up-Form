@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sign-up Form</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="left-container">
+			<div class="logo">
+				<img src="./odin-lined.png" alt="Logo" />
+				<p>ODIN</p>
+			</div>
+			<p>
+				Photo by
+				<a href="https://unsplash.com/ja/@haliewestphoto" target="_blank"
+					>Halie West</a
+				>
+				on
+				<a
+					href="https://unsplash.com/ja/%E5%86%99%E7%9C%9F/%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%BA%E3%82%A2%E3%83%83%E3%83%97%E5%86%99%E7%9C%9F%E3%81%AE%E7%B7%91%E3%81%AE%E8%91%89%E3%81%AE%E6%A4%8D%E7%89%A9-25xggax4bSA"
+					target="_blank"
+					>Unsplash</a
+				>
+			</p>
+		</div>
+		<div class="right-container">
+			<h1>
+				This is not a real online service! You know you need something like this
+				in your life to help you realize your deepest dreams. <br />Sign up now
+				to get started. <br /><br />You know you want to.
+			</h1>
+
+			<form action="#">
+				<div class="form-row">
+					<h1>Let's do this!</h1>
+				</div>
+				<div class="form-row">
+					<div>
+						<label for="first_name">FIRST NAME</label>
+						<input type="text" required id="first_name" name="first_name" />
+					</div>
+					<div>
+						<label for="last_name">LAST NAME</label>
+						<input type="text" required id="last_name" name="last_name" />
+					</div>
+				</div>
+				<div class="form-row">
+					<div>
+						<label for="email">EMAIL</label>
+						<input type="email" name="email" id="email" required />
+					</div>
+					<div>
+						<label for="phone_number">PHONE NUMBER</label>
+						<input type="tel" name="phone_number" id="phone_number" required />
+					</div>
+				</div>
+				<div class="form-row">
+					<div>
+						<label for="password">PASSWORD</label>
+						<input type="password" name="password" id="password" />
+					</div>
+					<div>
+						<label for="confirm_password">CONFIRM PASSWORD</label>
+						<input
+							type="password"
+							name="confirm_password"
+							id="confirm_password"
+						/>
+					</div>
+				</div>
+			</form>
+			<div class="">
+				<button type="submit">Create Account</button>
+			</div>
+			<div class="form-login">
+				<p>Already have an account? <span>Log in</span></p>
+			</div>
+		</div>
+	</body>
+</html>
